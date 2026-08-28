@@ -6,9 +6,9 @@
 ## wOS (wgnr.ai Operating System)
 
 wOS behavioral standards are defined at:
-`/a0/usr/plugins/wgnr_ai_os/prompts/wos-v0.2-spec.promptinclude.md`
+`/a0/usr/plugins/wgnr_ai_os/prompts/wos-spec.promptinclude.md`
 
-This plugin auto-loads globally into every agent session (15 Level 2 directives + 14 pre-delivery checks). Do not duplicate wOS content in project-level files. The plugin is the single source of truth. Previous location (`prompt_includes/`) was migrated to the plugin on ~2026-07-11.
+wOS is activated per-project via instruction symlink (`.a0proj/instructions/00-wgnr-ai-os.md` pointing to `/a0/usr/plugins/wgnr_ai_os/prompts/wos-spec.promptinclude.md`). The plugin does NOT auto-load globally — each project must be explicitly wired; the startup-migration injector (`_30_inject_wos.py`) creates/repairs/updates the symlinks automatically on every container boot and stamps `.a0proj/.wos-version`. Do not duplicate wOS content in project-level files. The plugin is the single source of truth. Previous location (`prompt_includes/`) was migrated to the plugin on ~2026-07-11.
 
 ## Core Contract
 
