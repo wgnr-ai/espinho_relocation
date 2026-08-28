@@ -92,7 +92,7 @@ When the user requests a durable behavior change, record it here or in the relev
   - Obsidian folder: `/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho-relocation/`
   - Status: no Obsidian project folder exists for this project yet (verified 2026-08-28); create it and symlink `docs/` if Obsidian mirroring is wanted
   - Use for: cross-project notes, strategy docs, meeting notes, research, and collaborative planning that benefits from Obsidian's graph/linking
-  - Vault root: `/a0/usr/obsidian/` (15 top-level folders including 86-skills-library, 20-knowledge, 30-research, 26-emails, 98-templates)
+  - Vault root: `/a0/usr/obsidian/` (15 top-level folders including 86-skills-library, 20-knowledge, 30-research, 99-organize, Daily, Templates)
   - **Sync script:** `/a0/usr/scripts/sync-obsidian-symlinks.py` — STALE (targets pre-restructure layout); do not run until rewritten.
   - **Obsidian exclusions:** `.file_guard_backups/`, `_templates/`, `_archived/`, `.examples/`, `_bmad-output/` are excluded from Obsidian's index via Settings → Files and links → Excluded files.
 
