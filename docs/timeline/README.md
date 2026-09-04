@@ -1,7 +1,7 @@
 # Timeline & Milestones
 
 ## Overview
-Month-by-month countdown from now (May 2026) to January 2027 move date.
+Month-by-month countdown to the revised move window: **Spring–Summer 2027 (target April–June 2027)**, decided 2026-09-02. Phased plan: `../plans/non-crisis-move-plan.md` (draft, pending approval). The milestone dates below predate this revision and will be rebuilt from the approved plan.
 
 ## Research Questions
 - Critical path items — what must happen first?

@@ -1,0 +1,1 @@
+../../../wgnr_ai_sysop/prompt_includes/text-editor-fallback.promptinclude.md

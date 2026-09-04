@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "zai-web-search": {
+      "name": "zai-web-search",
+      "description": "Z.AI Web Search MCP (webSearchPrime)",
+      "type": "streamable-http",
+      "url": "https://api.z.ai/api/mcp/web_search_prime/mcp",
+      "headers": {
+        "Authorization": "Bearer 2f335359ce52470598235381e7008342.zpD98hloe5Jp3EUb"
+      }
+    },
+    "zai-web-reader": {
+      "name": "zai-web-reader",
+      "description": "Z.AI Web Reader MCP (webReader)",
+      "type": "streamable-http",
+      "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+      "headers": {
+        "Authorization": "Bearer 2f335359ce52470598235381e7008342.zpD98hloe5Jp3EUb"
+      }
+    }
+  }
+}
