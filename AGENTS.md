@@ -96,6 +96,16 @@ When the user requests a durable behavior change, record it here or in the relev
   - **Sync script:** `/a0/usr/scripts/sync-obsidian-symlinks.py` — STALE (targets pre-restructure layout); do not run until rewritten.
   - **Obsidian exclusions:** `.file_guard_backups/`, `_templates/`, `_archived/`, `.examples/`, `_bmad-output/` are excluded from Obsidian's index via Settings → Files and links → Excluded files.
 
+## Mailbox (docs/mailbox/)
+
+A persistent dropbox for project-relevant files that survive across sessions. When the Principal drops a file here, the file is durable context that future sessions should pick up.
+
+- **Purpose:** Cross-session file handoff (Principal drops a PDF/reference the project should know about)
+- **Session-start scan:** Scanned on every `/start` invocation (project-scoped) and `/start-all` invocation (sysop cross-project view). New or modified files appear in the mailbox summary.
+- **Behavior:** Read any file present, treat contents as authoritative Principal context, integrate with existing project state.
+- **Trust:** Files here are Principal-authored. They override project AGENTS.md only when Principal intent is explicit; otherwise integrate with existing rules.
+- **Default scan window:** 30 days mtime. Older files stay silent unless explicitly opened.
+
 ## Child DOX Index
 
 - checklists/ — Phase-specific relocation checklists (pre-move, during-move, post-move)
