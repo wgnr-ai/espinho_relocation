@@ -1,0 +1,7 @@
+**/.DS_Store
+**/index.faiss
+**/index.faiss.sha256
+**/index.pkl
+**/embedding.json
+.a0proj/state/
+**/plugins/_model_config/config.json
