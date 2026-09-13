@@ -1,7 +1,7 @@
 ---
 title: PRD — Espinho Relocation Sub-Agent Set (PT Fiscal Advisor + Specialty Sub-Agents)
 status: open
-project: espinho-relocation
+project: espinho_relocation
 assignees:
   - SysOp (wgnr_ai_sysop)
 priority: high
@@ -18,13 +18,13 @@ tags:
 
 # PRD — Espinho Relocation Sub-Agent Set
 
-**Origin:** Wagner dos Santos, 2026-09-03, during espinho-relocation planning session.
-**Routing:** Filed with SysOp (wgnr_ai_sysop) for build. Active project espinho-relocation will consume the output.
+**Origin:** Wagner dos Santos, 2026-09-03, during espinho_relocation planning session.
+**Routing:** Filed with SysOp (wgnr_ai_sysop) for build. Active project espinho_relocation will consume the output.
 **Status:** DRAFT, awaiting SysOp prioritization and build.
 
 ## Problem
 
-The espinho-relocation project (Orlando FL → Espinho, Portugal; target move Apr–Jun 2027) requires a level of jurisdiction-specific, frequently-changing expertise that the existing espinho-captain (orchestrator) and espinho-researcher (generalist researcher) profiles cannot sustain. Today's Wave-1 / Wave-2 research exposed three gaps where Generalist + Generalist-Researcher must defer to a human-paid professional:
+The espinho_relocation project (Orlando FL → Espinho, Portugal; target move Apr–Jun 2027) requires a level of jurisdiction-specific, frequently-changing expertise that the existing espinho-captain (orchestrator) and espinho-researcher (generalist researcher) profiles cannot sustain. Today's Wave-1 / Wave-2 research exposed three gaps where Generalist + Generalist-Researcher must defer to a human-paid professional:
 
 1. **PT fiscal / tax advisory** (IFICI eligibility screening, entity restructure design, IRS posture, Modelo 3 / Modelo 22 filings, NIF/NISS planning, US-PT treaty tie-breaker work)
 2. **PT healthcare for a 91-year-old returning senior with active cancer history** (SNS enrollment pathway, IPO Porto / oncology referral coordination, Natera Signatera continuity, prescription transfer)
@@ -204,7 +204,7 @@ The sub-agent set is considered successful when:
 
 - Each sub-agent is a profile entry in the active wgnr_ai_sysop project, distributed via the existing prompt profile mechanism.
 - Each sub-agent loads the espinho-researcher base instructions as a foundation, then layers on its specialty tool surface and source whitelist.
-- The Principal's active project espinho-relocation consumes the sub-agents via `call_subordinate(profile="espinho-<specialty>")`.
+- The Principal's active project espinho_relocation consumes the sub-agents via `call_subordinate(profile="espinho-<specialty>")`.
 - A consolidated sub-agent registry is maintained in the active wgnr_ai_sysop project under `agents/espinho-<specialty>/AGENTS.md` (DOX convention).
 
 ## Acceptance criteria
@@ -219,7 +219,7 @@ The sub-agent set is considered successful when:
 ## Open questions for SysOp
 
 - Model routing: per wOS Directive D2, the most expensive model makes decisions; the cheapest model that can follow specs does the work. Espinho-fiscal-advisor and espinho-healthcare-senior-care probably want the expensive model. Espinho-pet-logistics, espinho-real-estate, espinho-ip-contracts can run on the cheaper model.
-- Tool surface: which tools do these profiles need beyond the default? Should they have direct read access to the espinho-relocation `research/` folder?
+- Tool surface: which tools do these profiles need beyond the default? Should they have direct read access to the espinho_relocation `research/` folder?
 - Memory scoping: do these sub-agents share memory with espinho-researcher (sibling agents) or get isolated memory (federated)?
 - Update cadence: PT regulations change frequently. What's the auto-update mechanism for the source whitelists?
 

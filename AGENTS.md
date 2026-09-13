@@ -87,9 +87,9 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Related Paths
 
-- **Obsidian Vault (shared collaboration):** `/a0/usr/obsidian/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho-relocation/`
-  - Host path: `/Users/wgnr/agent-zero/wgnr-ai-ops/usr/obsidian/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho-relocation/`
-  - Obsidian folder: `/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho-relocation/`
+- **Obsidian Vault (shared collaboration):** `/a0/usr/obsidian/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho_relocation/`
+  - Host path: `/Users/wgnr/agent-zero/wgnr-ai-ops/usr/obsidian/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho_relocation/`
+  - Obsidian folder: `/01-wgnr-ai/01-wgnr-ai-ops/wgnr-ai-ops-projects/espinho_relocation/`
   - Status: no Obsidian project folder exists for this project yet (verified 2026-08-28); create it and symlink `docs/` if Obsidian mirroring is wanted
   - Use for: cross-project notes, strategy docs, meeting notes, research, and collaborative planning that benefits from Obsidian's graph/linking
   - Vault root: `/a0/usr/obsidian/` (15 top-level folders including 86-skills-library, 20-knowledge, 30-research, 99-organize, Daily, Templates)

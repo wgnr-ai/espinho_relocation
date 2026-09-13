@@ -12,7 +12,7 @@
 - `research/2026-09-03-finance-remote-work-and-benefits.md` — finance/taxes workstream depth.
 
 ## 2026-09-03 — PT Fiscal Advisor Sub-Agent PRD (open dev-ticket)
-- `dev-tickets/2026-09-03-pt-fiscal-advisor-subagent-prd.md` — PRD for 5 sub-agents (fiscal-advisor, healthcare-senior-care, pet-logistics, real-estate, ip-contracts) to back espinho-relocation.
+- `dev-tickets/2026-09-03-pt-fiscal-advisor-subagent-prd.md` — PRD for 5 sub-agents (fiscal-advisor, healthcare-senior-care, pet-logistics, real-estate, ip-contracts) to back espinho_relocation.
 
 ## 2026-09-02 — Initial 4 Research Files
 - `research/2026-09-02-espinho-cost-of-living.md`
@@ -23,5 +23,5 @@
 ## 2026-05-27 — Project Initialized
 - Created project scaffold
 - Set up 8 workstreams
-- GitHub repo: wgnr-ai/espinho-relocation
+- GitHub repo: wgnr-ai/espinho_relocation
 - Target date: January 2027 (now refined to Apr–Jun 2027 per Principal)
